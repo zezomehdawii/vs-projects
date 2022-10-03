@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>
+            Meme Website
+        </title>
+        <meta> name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta> <http-equiv="refresh" content="30;url=http://127.0.0.1:5000/">
+            <style>
+                body {background-color: #000000; background-repeat: no-repeat;background-position: top left; background-size: 100% 100%; background-attachment: fixed;}
+                h1{text-align: center; font-family: arial; color: #ffffff;background-color: #000000;}
+                p {text-align: center; font-family:Georgia, serif; font-size: 48px; font-style:normal; font-weight: bold; color: #ffffff; background-color: #000000;}
+            </style>
+    </head>
+    <body>
+        <h1>A website to gather memes!</h1>
+        <p> Your IP {{ip}} niggaaaaaa</p>
+        
+        <form action="/" method="get">
+            <p><button name="forwardBtn" type="submit">View Next</button></p>
+        </form>
+       
+        
+        <div class="wrapper">
+            <div class="box2"> <p> <img src="{{meme_pic}}" alt="meme"></p></div> 
+        </div>   
+        
+        <p> Current subreddit: {{subriddit}}</p>
+    </body>
+</html>
